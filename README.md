@@ -402,26 +402,25 @@ text
 
 docker-compose up -d
 
-text
+
 
 ### View Logs
 
 docker-compose logs -f
 
-text
+
 
 ### Restart
 
 docker-compose restart
 
-text
+
 
 ### Rebuild
 
 docker-compose build --no-cache
 docker-compose up -d
 
-text
 
 ---
 
