@@ -1,4 +1,4 @@
-# Gaming-Trakcer# 🎮 Multi-Platform Gaming Monitor
+# MultiplatformGamingMonitor 🎮 Multi-Platform Gaming Monitor
 
 Real-time gaming activity monitor for PlayStation Network, Xbox Live, and Steam with Discord and Uptime Kuma notifications.
 
