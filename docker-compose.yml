@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  gaming-monitor:
+    build: .
+    container_name: gaming-monitor
+    restart: unless-stopped
+    volumes:
+      - ./logs:/app/logs
+      - ./config.json:/app/config.json
+    networks:
+      - monitoring
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  monitoring:
+    driver: bridge

@@ -1,0 +1,43 @@
+{
+  "check_interval": 30,
+  "notifications": {
+    "discord_webhook": "",
+    "uptime_kuma_push_url": ""
+  },
+  "monitors": [
+    {
+      "name": "",
+      "enabled": true,
+      "platform": "psn",
+      "username": "",
+      "auth": {
+        "npsso_token": ""
+      },
+      "track_mode": "specific_games",
+      "games": [""],
+      "ignore_mobile": true
+    },
+    {
+      "name": "Friend's Xbox",
+      "enabled": false,
+      "platform": "xbox",
+      "username": "SomeXboxTag",
+      "auth": {
+        "api_key": "your_openxbl_api_key"
+      },
+      "track_mode": "online_status",
+      "ignore_mobile": true
+    },
+    {
+      "name": "Friend's Steam",
+      "enabled": true,
+      "platform": "steam",
+      "username": "",
+      "auth": {
+        "api_key": ""
+      },
+      "track_mode": "any_game",
+      "ignore_mobile": false
+    }
+  ]
+}
